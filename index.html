@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMARTTRANSIT - Sistema de Pago Electrónico y Monitoreo GPS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-bus"></i>
+                    <span>SMARTTRANSIT</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#ventajas">Ventajas</a></li>
+                    <li><a href="#caracteristicas">Características</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Monitoreo en Tiempo Real y Pagos Electrónicos Seguros</h1>
+                <p class="hero-subtitle">Revoluciona tu sistema de transporte público con tecnología NFC y GPS en tiempo real</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contacto')">
+                        <i class="fas fa-calendar-check"></i> Solicitar Demo Gratuita
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('ventajas')">
+                        <i class="fas fa-info-circle"></i> Conocer Más
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>100% Seguro</h3>
+                        <p>Transacciones protegidas</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <h3>Tiempo Real</h3>
+                        <p>Monitoreo GPS continuo</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Eficiencia</h3>
+                        <p>Optimización de rutas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Pago con NFC</h3>
+                    <p>Tecnología sin contacto</p>
+                </div>
+                <div class="hero-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>GPS en Vivo</h3>
+                    <p>Rastreo en tiempo real</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventajas Section -->
+    <section id="ventajas" class="ventajas">
+        <div class="container">
+            <h2 class="section-title">¿Por Qué Elegir SMARTTRANSIT?</h2>
+            <p class="section-subtitle">Beneficios clave para operadores de transporte público</p>
+            <div class="ventajas-grid">
+                <div class="ventaja-card">
+                    <div class="ventaja-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3>Eficiencia de Rutas</h3>
+                    <p>Optimiza tus rutas con datos en tiempo real y reduce costos operativos hasta en un 30%</p>
+                </div>
+                <div class="ventaja-card">
+                    <div class="ventaja-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Seguridad en Transacciones</h3>
+                    <p>Pagos electrónicos seguros con tecnología NFC, eliminando el manejo de efectivo</p>
+                </div>
+                <div class="ventaja-card">
+                    <div class="ventaja-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Transparencia Total</h3>
+                    <p>Reportes detallados y seguimiento completo de todas las operaciones</p>
+                </div>
+                <div class="ventaja-card">
+                    <div class="ventaja-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicación Móvil</h3>
+                    <p>Control total desde tu smartphone, para usuarios y operadores</p>
+                </div>
+                <div class="ventaja-card">
+                    <div class="ventaja-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Mejor Experiencia</h3>
+                    <p>Aumenta la satisfacción de tus pasajeros con servicios modernos</p>
+                </div>
+                <div class="ventaja-card">
+                    <div class="ventaja-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Análisis de Datos</h3>
+                    <p>Toma decisiones informadas con estadísticas y reportes avanzados</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características Section -->
+    <section id="caracteristicas" class="caracteristicas">
+        <div class="container">
+            <h2 class="section-title">Características del Sistema</h2>
+            <div class="caracteristicas-content">
+                <div class="caracteristica-item">
+                    <div class="caracteristica-number">01</div>
+                    <div class="caracteristica-text">
+                        <h3>Pagos con Tarjetas NFC</h3>
+                        <p>Sistema de pago sin contacto rápido y seguro. Compatible con tarjetas bancarias y dispositivos móviles.</p>
+                    </div>
+                </div>
+                <div class="caracteristica-item">
+                    <div class="caracteristica-number">02</div>
+                    <div class="caracteristica-text">
+                        <h3>Monitoreo GPS en Tiempo Real</h3>
+                        <p>Rastreo preciso de cada unidad de transporte. Visualización en mapa interactivo.</p>
+                    </div>
+                </div>
+                <div class="caracteristica-item">
+                    <div class="caracteristica-number">03</div>
+                    <div class="caracteristica-text">
+                        <h3>Panel de Control Web</h3>
+                        <p>Administra toda tu flota desde un panel intuitivo y completo con reportes en tiempo real.</p>
+                    </div>
+                </div>
+                <div class="caracteristica-item">
+                    <div class="caracteristica-number">04</div>
+                    <div class="caracteristica-text">
+                        <h3>Aplicación Móvil para Usuarios</h3>
+                        <p>Los pasajeros pueden consultar rutas, horarios y realizar recargas desde su celular.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">Solicita tu Demo Gratuita</h2>
+            <p class="section-subtitle">Completa el formulario y nos pondremos en contacto contigo</p>
+            <div class="contacto-content">
+                <form class="contacto-form" id="contactForm" method="POST">
+                    <!-- Campos ocultos de FormSubmit -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa">Empresa *</label>
+                            <input type="text" id="empresa" name="empresa" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <i class="fas fa-paper-plane"></i> Enviar Solicitud
+                    </button>
+                </form>
+                <div class="contacto-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:darkoutbreak@gmail.com?subject=Consulta%20sobre%20SMARTTRANSIT&body=Hola,%20estoy%20interesado%20en%20conocer%20más%20sobre%20SMARTTRANSIT.">darkoutbreak@gmail.com</a>
+                        <button class="btn btn-primary" style="margin-top: 10px; font-size: 0.9rem; padding: 0.5rem 1rem;" onclick="window.location.href='mailto:darkoutbreak@gmail.com?subject=Consulta sobre SMARTTRANSIT'">
+                            <i class="fas fa-envelope"></i> Enviar Email
+                        </button>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Teléfono</h3>
+                        <a href="tel:+59160918961">+591 60918961</a>
+                        <button class="btn btn-primary" style="margin-top: 10px; font-size: 0.9rem; padding: 0.5rem 1rem;" onclick="window.location.href='tel:+59160918961'">
+                            <i class="fas fa-phone"></i> Llamar
+                        </button>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Ubicación</h3>
+                        <a href="https://maps.app.goo.gl/p4cpyj4KhWVbzNwH9" target="_blank">Ver en Google Maps</a>
+                        <button class="btn btn-primary" style="margin-top: 10px; font-size: 0.9rem; padding: 0.5rem 1rem;" onclick="window.open('https://maps.app.goo.gl/p4cpyj4KhWVbzNwH9', '_blank')">
+                            <i class="fas fa-map-marked-alt"></i> Abrir Mapa
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación Section -->
+    <section class="ubicacion">
+        <div class="container">
+            <h2 class="section-title">Nuestra Ubicación</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.3!2d-68.1193!3d-16.5000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDMwJzAwLjAiUyA2OMKwMDcnMDkuNSJX!5e0!3m2!1ses!2sbo!4v1234567890" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-bus"></i>
+                        <span>SMARTTRANSIT</span>
+                    </div>
+                    <p>Revolucionando el transporte público con tecnología de punta</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#ventajas">Ventajas</a></li>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> darkoutbreak@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +591 60918961</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SMARTTRANSIT. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/59160918961?text=Hola,%20estoy%20interesado%20en%20SMARTTRANSIT" 
+       class="whatsapp-float" 
+       target="_blank"
+       aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header" id="chatbotHeader">
+            <div class="chatbot-title">
+                <i class="fas fa-robot"></i>
+                <span>Asistente Virtual</span>
+            </div>
+            <button class="chatbot-close" id="chatbotClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot-message">
+                <i class="fas fa-robot"></i>
+                <p>¡Hola! Soy el asistente virtual de SMARTTRANSIT. ¿En qué puedo ayudarte hoy?</p>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbotInput" placeholder="Escribe tu mensaje...">
+            <button id="chatbotSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Chatbot Toggle Button -->
+    <button class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-comments"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
