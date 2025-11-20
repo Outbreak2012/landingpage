@@ -25,9 +25,10 @@ app.post('/send-email', async (req, res) => {
 
 
     try {
+        // Solo puedes enviar correos al email con el que te registraste en Resend
         const { data, error } = await resend.emails.send({
             from: 'SMARTTRANSIT <noreply@resend.dev>',
-            to: 'luzmarinacadima01@gmail.com',
+            to: 'darkoutbreak@gmail.com', // Cambia esto por el email con el que te registraste en Resend
             subject: `Nueva Solicitud de Demo - ${empresa}`,
             html: `
                 <h2>Nueva Solicitud de Demo - SMARTTRANSIT</h2>
